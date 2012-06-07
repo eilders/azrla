@@ -1,0 +1,81 @@
+/*
+Theme Name:     Cave Man Lawyers
+Theme URI:      http://example.com/
+Description:    Child theme for the Twenty Eleven theme 
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       twentyeleven
+Version:        0.1.0
+*/
+
+
+@font-face { font-family: 'PTSansNarrowRegular'; src: url('fonts/PTN57F-webfont.eot'); src: url('fonts/PTN57F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTN57F-webfont.woff') format('woff'),url('fonts/PTN57F-webfont.ttf') format('truetype'),url('fonts/PTN57F-webfont.svg#PTSansNarrowRegular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'PTSansCaptionBold'; src: url('fonts/PTC75F-webfont.eot'); src: url('fonts/PTC75F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTC75F-webfont.woff') format('woff'),url('fonts/PTC75F-webfont.ttf') format('truetype'),url('fonts/PTC75F-webfont.svg#PTSansCaptionBold') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'PTSansCaptionRegular'; src: url('fonts/PTC55F-webfont.eot'); src: url('fonts/PTC55F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTC55F-webfont.woff') format('woff'),url('fonts/PTC55F-webfont.ttf') format('truetype'),url('fonts/PTC55F-webfont.svg#PTSansCaptionRegular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'PTSansBoldItalic'; src: url('fonts/PTS76F-webfont.eot'); src: url('fonts/PTS76F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTS76F-webfont.woff') format('woff'),url('fonts/PTS76F-webfont.ttf') format('truetype'),url('fonts/PTS76F-webfont.svg#PTSansBoldItalic') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'PTSansBold'; src: url('fonts/PTS75F-webfont.eot'); src: url('fonts/PTS75F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTS75F-webfont.woff') format('woff'),url('fonts/PTS75F-webfont.ttf') format('truetype'),url('fonts/PTS75F-webfont.svg#PTSansBold') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'PTSansItalic'; src: url('fonts/PTS56F-webfont.eot'); src: url('fonts/PTS56F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTS56F-webfont.woff') format('woff'),url('fonts/PTS56F-webfont.ttf') format('truetype'),url('fonts/PTS56F-webfont.svg#PTSansItalic') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'PTSansRegular'; src: url('fonts/PTS55F-webfont.eot'); src: url('fonts/PTS55F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTS55F-webfont.woff') format('woff'),url('fonts/PTS55F-webfont.ttf') format('truetype'),url('fonts/PTS55F-webfont.svg#PTSansRegular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'PTSansNarrowBold'; src: url('fonts/PTN77F-webfont.eot'); src: url('fonts/PTN77F-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/PTN77F-webfont.woff') format('woff'),url('fonts/PTN77F-webfont.ttf') format('truetype'),url('fonts/PTN77F-webfont.svg#PTSansNarrowBold') format('svg'); font-weight: normal; font-style: normal; }
+
+@font-face { font-family: 'TeXGyreTermesRegular'; src: url('fonts/texgyretermes-regular-webfont.eot'); src: url('fonts/texgyretermes-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/texgyretermes-regular-webfont.woff') format('woff'),url('fonts/texgyretermes-regular-webfont.ttf') format('truetype'),url('fonts/texgyretermes-regular-webfont.svg#TeXGyreTermesRegular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'TeXGyreTermesItalic'; src: url('fonts/texgyretermes-italic-webfont.eot'); src: url('fonts/texgyretermes-italic-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/texgyretermes-italic-webfont.woff') format('woff'),url('fonts/texgyretermes-italic-webfont.ttf') format('truetype'),url('fonts/texgyretermes-italic-webfont.svg#TeXGyreTermesItalic') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'TeXGyreTermesBold'; src: url('fonts/texgyretermes-bold-webfont.eot'); src: url('fonts/texgyretermes-bold-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/texgyretermes-bold-webfont.woff') format('woff'),url('fonts/texgyretermes-bold-webfont.ttf') format('truetype'),url('fonts/texgyretermes-bold-webfont.svg#TeXGyreTermesBold') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'TeXGyreTermesBoldItalic'; src: url('fonts/texgyretermes-bolditalic-webfont.eot'); src: url('fonts/texgyretermes-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/texgyretermes-bolditalic-webfont.woff') format('woff'),url('fonts/texgyretermes-bolditalic-webfont.ttf') format('truetype'),url('fonts/texgyretermes-bolditalic-webfont.svg#TeXGyreTermesBoldItalic') format('svg'); font-weight: normal;font-style: normal; }
+
+
+body { background: #0288ea url("images/bg.png") repeat-x  0 0; }
+
+.fb-comments, .fb-comments span, .fb-comments.fb_iframe_widget span iframe {
+    width: 100% !important;
+}
+
+h1 { font-family: 'TeXGyreTermesRegular','Times New Roman',times; }
+h1.entry-title { font-size: 184.6153846153846%; }
+h2.widgettitle, h3.widget-title { font: 20px "PTSansCaptionBold",Arial,sans-serif; }
+article { margin-bottom: 20px; }
+
+header#banner { min-height: 115px; text-align: left; margin: 10px 0;}
+	header#banner a { color: #fff; }
+	header#banner a img { margin-right: 10px; }
+	header#banner a span { display: inline-block; font-size: 120%; }
+
+#content { padding: 2.985074626865672%; margin-bottom: 10px; }
+#middleSidebar .content { padding: 1.851851851851852%; }
+#rightSidebar .content { padding: 2.941176470588235%; }
+
+header#branding .widget{ position: absolute; top: 2em; right: 7.6%; }
+.navbar-inner {
+	background-color: #f81725;
+	background-image: -moz-linear-gradient(top, #d7212e, #f81725);
+	background-image: -ms-linear-gradient(top, #d7212e, #f81725);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d7212e), to(#f81725));
+	background-image: -webkit-linear-gradient(top, #d7212e, #f81725);
+	background-image: -o-linear-gradient(top, #d7212e, #f81725);
+	background-image: linear-gradient(top, #d7212e, #f81725);
+	background-repeat: repeat-x;
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#d7212e', endColorstr='#f81725', GradientType=0);
+}
+.navbar .brand { color: #fff; }
+.navbar .nav > li > a { color: #fff; }
+
+.widget-area, #primary { background-color: #fff; }
+
+/* Assistive text */
+.assistive-text {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+#access a.assistive-text:active,
+#access a.assistive-text:focus {
+	background: #eee;
+	border-bottom: 1px solid #ddd;
+	color: #1982d1;
+	clip: auto !important;
+	font-size: 12px;
+	position: absolute;
+	text-decoration: underline;
+	top: 0;
+	left: 7.6%;
+}
