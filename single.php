@@ -23,7 +23,7 @@ get_header(); ?>
 					<?php get_template_part( 'content', 'single' ); ?>
 					
 					
-					<div class="fb-comments" data-href="http://www.hamms.com/" data-num-posts="10" data-width="470"></div>
+					<div class="fb-comments" data-href="<?php the_permalink(); ?>" data-num-posts="10" data-width="470"></div>
 
 				<?php endwhile; // end of the loop. ?>
 
